@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hope Organization - Organization Register</title>
+    <link rel="stylesheet" href="registerOrg.css" />
+    <script src="registerOrg.js" defer></script>
+  </head>
+  <body>
+    <div class="container1 loginMargin loginGap">
+      <div class="backcontainer">
+        <img
+          src="../../Assets/Images/LogoBig.jpg"
+          alt="Hope Logo"
+          width="300"
+          height="100"
+        />
+      </div>
+      <div>
+        <form class="loginForm" onsubmit="return orgRegister()">
+          <div>
+            <div class="flexColumn">
+              <p class="boldText">First Name</p>
+              <input
+                class="inputBig"
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Enter First Name"
+              />
+            </div>
+
+            <div class="flexColumn">
+              <p class="boldText">Last Name</p>
+              <input
+                class="inputBig"
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Enter Last Name"
+              />
+            </div>
+
+            <div class="flexColumn">
+              <p class="boldText"> e-mail</p>
+              <input
+                class="inputBig"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Enter email"
+              />
+            </div>
+
+            <div class="flexColumn">
+              <p class="boldText">Contact Number</p>
+              <input
+                class="inputBig"
+                type="number"
+                id="contactNumber"
+                name="contactNumber"
+                placeholder="Enter contact Number "
+              />
+            </div>
+
+            <div class="flexColumn">
+              <p class="boldText">Password</p>
+              <input
+                class="inputBig"
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+              />
+            </div>
+
+            <div class="flexColumn">
+                <p class="boldText"> Organization Type</p>
+                <input
+                  class="inputBig"
+                  type="text"
+                  id="type"
+                  name="type"
+                  placeholder="Enter Organization type"
+                />
+              </div>
+
+              <div class="flexColumn">
+                <p class="boldText"> Organization Name</p>
+                <input
+                  class="inputBig"
+                  type="name"
+                  id="name"
+                  name="name"
+                  placeholder="Enter Organization Name"
+                />
+              </div>
+
+            <div class="flexColumn">
+              <p class="boldText">Organization Address (Area, Governorate)</p>
+              <input
+                class="inputBig"
+                type="text"
+                id="address"
+                name="address"
+                placeholder="Enter address "
+              />
+            </div>
+
+            <div class="flexColumn">
+                <form id="donorForm">
+                    <!-- Other form fields -->
+                    <p class="boldText" for="document">Upload Document</p>
+                    <input type="file" id="document" name="document"><br>
+                    <!-- Submit button -->
+                    <!-- <button type="add">upload</button> -->
+                </form>
+            </div>
+
+            <div class = "flexColumn">
+                <p class="boldText">Gender</p>
+                <select id="gender" name="gender">
+                  <option value="doctor">Female</option>
+                  <option value="teacher">Male</option>
+            </div>
+
+          <input class="buttonMedium" type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

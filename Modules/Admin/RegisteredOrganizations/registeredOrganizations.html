@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hope Organization - registered organizations</title>
+    <link rel="stylesheet" href="registeredOrganizations.css" />
+  </head>
+  <body>
+    <main-header></main-header>
+    <div class="regContainer1">
+      <div class="regHeaderContainer">
+        <p class="headerTextSize boldText purpleText">
+          Registered Organizations
+        </p>
+        <div class="regHeaderContainer2">
+          <input
+            id="searchbar"
+            type="text"
+            name="search"
+            placeholder="Search organizations.."
+          />
+        </div>
+        <div class="AllFiltersContainer">
+          <div class="checkbox-dropdown">
+            <p class="boldText whiteText">Governorate</p>
+            <ul class="checkbox-dropdown-list">
+              <div class="filterContainerGovernorate"></div>
+            </ul>
+          </div>
+          <div class="checkbox-dropdown">
+            <p class="boldText whiteText">Area</p>
+            <ul class="checkbox-dropdown-list">
+              <div class="filterContainerArea"></div>
+            </ul>
+          </div>
+          <div class="checkbox-dropdown">
+            <p class="boldText whiteText">Type</p>
+            <ul class="checkbox-dropdown-list">
+              <div class="filterContainerType"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="organizationsRequests"></div>
+    </div>
+
+    <script src="../../../Components/NavBar/navBar.js"></script>
+    <script src="registeredOrganizations.js" type="module" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>

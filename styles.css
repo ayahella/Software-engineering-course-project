@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("./Assets/Fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("./Assets/Fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("./Assets/Fonts/Poppins-Bold.ttf");
+}
+
+body {
+  font-family: "Poppins Regular", Arial, sans-serif;
+}
+/* html,
+body {
+  overflow: hidden;
+} */
+
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginGap {
+  gap: 32px;
+}
+.loginMargin {
+  margin-bottom: 32px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: end;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+}
+.roleDropDown {
+  width: 300px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #e4e4e4;
+  cursor: pointer;
+}
+.buttonSmall {
+  width: 100px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #36119f;
+  color: white;
+  cursor: pointer;
+}
+.buttonMedium {
+  width: 307px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #36119f;
+  color: white;  
+  cursor: pointer;
+}
+.buttonGreen {
+  background-color: #10971e !important;
+}
+.buttonRed {
+  background-color: #9f1111 !important;
+}
+.boldText {
+  font-family: "Poppins Bold";
+}
+.mediumText {
+  font-family: "Poppins Medium";
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+.inputBig {
+  width: 300px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #e4e4e4;
+}
+.navBarButton {
+  width: 250px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #36119f;
+  color: white;
+  padding: 16px;
+  cursor: pointer;
+}
+.iconButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #36119f;
+  color: white;
+  cursor: pointer;
+}
+
+.backButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #36119f;
+  cursor: pointer;
+}
+.yellowText {
+  color: #cda508;
+}
+.purpleText {
+  color: #36119f;
+}
+.whiteText{
+  color: white;
+}
+.headerTextSize {
+  font-size: 28px;
+}
